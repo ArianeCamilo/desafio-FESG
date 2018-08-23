@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Condensed');
+
+/* Geral */
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.container{
+    margin: auto;
+    max-width: 80%;
+    background: #fff;
+    /* box-shadow: 30px 0px 40px rgba(0,0,0,0.1), -30px 0px 40px rgba(0,0,0,0.1); */
+}
+
+header{
+    background: #ebeced;
+    height: 40vh;
+    text-align: center;
+    align-items: center;
+    justify-content: center;    
+    display: flex;
+}
+
+.content{
+    margin-top: 10px;
+    height: 550px;
+    display: flex;  
+    justify-content: space-between;    
+}
+
+.div-left, .div-right{
+    border: 1px solid #ddd;
+    padding: 25px;
+}
+
+/* Div da esquerda (contatos e comunidades)  */
+.div-left{
+    width: 30%;
+    margin-right: 10px;
+}
+
+.contatos{
+    height: 60%;
+}
+
+.contatos a{
+    display: block;
+    padding-bottom: 5px;
+    font-style: bold;
+}
+
+.comunidades{
+    height: 40%;
+}
+
+.comunidades a, .eventos a{
+    display: block;
+}
+
+/* Div da direita (tecnologias e eventos) */
+.div-right {
+    display: flex;
+    width: 70%;   
+    /* background:paleturquoise;  */
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.div-right-tecs{
+    max-width: 50%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    
+}
+
+.tec1, .tec2, .tec3, .tec4, .tec5{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+    vertical-align: text-bottom;
+}
+
+.tecs-atuais{
+    height: 60%;  
+}
+
+.tecs-futuras{
+    height: 40%;
+} 
+
+
+/* Tipografia */
+h1, h2, h3, p, a{
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+}
+
+h3{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 25px;
+    padding: 0 15px 15px 0;
+}
+
+p, a{
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 10px;
+}
+
+a{
+    text-decoration: underline;
+    color: #000;
+}
+
+a:hover{
+    color: tomato;
+}
+
+.div-left p, .div-right p{
+    font-size: 1rem;
+}
+
+/* Imagem */
+.header-content img{    
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+/* Barras de status  */
+.bar-container{
+    width: 70%;
+    height: 15px;
+    background: #ccc;
+    border-radius: 20px;
+}
+
+.bar-value{
+    background: tomato;
+    height: 15px;
+    border-radius: 20px;        
+}
+
+.value-90{
+    width: 90%;
+}
+
+.value-70{
+    width: 70%;
+}
+
+.value-50{
+    width: 50%;
+}
+
